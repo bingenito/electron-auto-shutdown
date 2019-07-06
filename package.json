@@ -1,0 +1,32 @@
+{
+  "name": "electron-auto-shutdown",
+  "version": "0.1.0",
+  "description": "Scheduled shutdown of Electron applications",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingenito/electron-auto-shutdown.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bingenito/electron-auto-shutdown/issues"
+  },
+  "homepage": "https://github.com/bingenito/electron-auto-shutdown#readme",
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
